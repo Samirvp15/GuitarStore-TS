@@ -27,8 +27,5 @@ export type CarActions =
         }
     } |
     {
-        type: 'increase-quantity',
-        payload: {
-            id: Guitar['id']
-        }
+        type: 'clear-cart'
     }
